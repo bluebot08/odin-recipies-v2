@@ -9,3 +9,17 @@ body {
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.flex-container-recipie-nav {
+  display: flex;
+  border: 5px solid rgb(103, 146, 137);
+  padding: 16px;
+}
+
+.flex-container-recipie-nav li {
+  flex: 1;
+}
+
+ul .no-bullet {
+  list-style-type: none;
+}
