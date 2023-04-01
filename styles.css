@@ -11,13 +11,12 @@ h1 {
 }
 
 .flex-container-recipie-nav {
-  display: flex;
   border: 5px solid rgb(103, 146, 137);
   padding: 16px;
-}
-
-.flex-container-recipie-nav li {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 30%;
 }
 
 ul .no-bullet {
